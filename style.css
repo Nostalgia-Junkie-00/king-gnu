@@ -1,5 +1,59 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+/*-- General Styles --*/
+body {
+    background-color: black;
+}
+.sub {
+    font-size: 50px;
+    font-family: 'Skranji', cursive;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+    text-decoration: underline;
+}
+.sec {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.151) 15px 10px 5px;
+
+}
+/*-- Container --*/
+#container {
+    margin: auto;
+    background: linear-gradient(#56bddc, #2523a8,#951ac3, #c80ebf);
+    width: 80%;
+}
+/*-- Header --*/
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;   
+    padding: 50px;
+    gap: 20px;
+}
+#header #banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#header #banner #title {
+    font-size: 100px;
+    font-family: 'Skranji', cursive;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+
+}
+#header #banner #group-shot {
+    width: 50%;
+    border-radius: 100%;
+    box-shadow: rgba(255, 255, 255, 0.2) 15px 10px 5px;
+    border: white solid 2px;
 }
