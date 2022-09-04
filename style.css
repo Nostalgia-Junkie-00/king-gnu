@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Skranji:wght@400;700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -16,6 +16,8 @@ body {
     text-decoration: underline;
 }
 .sec {
+    margin: 0px auto;
+    width: 90%;
     background-color: rgba(0, 0, 0, 0.1);
     padding: 15px;
     border-radius: 10px;
@@ -24,9 +26,10 @@ body {
 }
 /*-- Container --*/
 #container {
-    margin: auto;
+    margin: 0px auto;
+    padding: 50px 0;
     background: linear-gradient(#56bddc, #2523a8,#951ac3, #c80ebf);
-    width: 80%;
+    width: 60%;
 }
 /*-- Header --*/
 #header {
@@ -34,21 +37,20 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;   
-    padding: 50px;
-    gap: 20px;
 }
+/*-- Banner --*/
 #header #banner {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
 }
 #header #banner #title {
     font-size: 100px;
     font-family: 'Skranji', cursive;
     color: white;
     text-shadow: black 1px 1px 5px;
+    margin-bottom: 15px;
 
 }
 #header #banner #group-shot {
@@ -56,4 +58,18 @@ body {
     border-radius: 100%;
     box-shadow: rgba(255, 255, 255, 0.2) 15px 10px 5px;
     border: white solid 2px;
+}
+/*-- Desc --*/
+#header #desc {
+    width: 70%;
+    padding: 15px;
+    border-radius: 10px;
+    border-top: white 2px solid;
+    border-bottom: white 2px solid;
+    text-align: center;
+}
+#header #desc p {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
 }
