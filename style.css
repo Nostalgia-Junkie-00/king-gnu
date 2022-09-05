@@ -19,17 +19,30 @@ body {
     margin: 0px auto;
     width: 90%;
     background-color: rgba(0, 0, 0, 0.1);
-    padding: 15px;
+    padding: 30px;
     border-radius: 10px;
     box-shadow: rgba(255, 255, 255, 0.151) 15px 10px 5px;
-
+}
+.mem-sec {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    background: rgba(204, 10, 243, 0.2);
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
 }
 /*-- Container --*/
 #container {
     margin: 0px auto;
     padding: 50px 0;
     background: linear-gradient(#56bddc, #2523a8,#951ac3, #c80ebf);
-    width: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 /*-- Header --*/
 #header {
@@ -37,6 +50,7 @@ body {
     flex-direction: column;
     justify-content: center; 
     align-items: center;   
+    gap: 30px;
 }
 /*-- Banner --*/
 #header #banner {
@@ -73,3 +87,39 @@ body {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
 }
+/*-- Main --*/
+#main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#main #about p{
+    font-size: 18px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+#main #members .mem-sec img {
+    width: 40%;
+    border-radius: 10px;
+    box-shadow: rgba(255, 255, 255, 0.2) 15px 10px 5px;
+    border: white solid 2px;
+}
+#main #members .mem-sec .profile .prof-title{
+    font-size: 25px;
+    font-family: 'Skranji', cursive;
+    color: white;
+    text-shadow: black 1px 1px 5px;
+}
+#main #members .mem-sec .profile {
+    width: 40%;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
